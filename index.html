@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Name - Personal Website</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>James Lee</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section>
+      <img class="pfp" id="pfp" src="ProfilePic.jpg" alt="Profile Picture" />
+    </section>
+
+    <section id="portfolio">
+      <h2 id="about">About Me</h2>
+      <p>
+        Hello and welcome to my personal website! I'm currently in my second
+        year as a Software Engineering student at Western University.
+      </p>
+      <h2>Work Experience</h2>
+      <div class="portfolio-item">
+        <h3>Project 1</h3>
+        <img src="project1.jpeg" alt="Project 1" />
+        <p>
+          My first project jdalsdjasldasdhasdhahd ja dkjahdashjd adasdasd aasd
+          aa dasd as da dsdas.
+        </p>
+      </div>
+      <div class="portfolio-item">
+        <h3>Project 2</h3>
+        <img src="project2.jpg" alt="Project 2" />
+        <p>
+          My second project. sdasdhaskd ashd adhakdha hdasdhasdhjsajhd hdh
+          ashdakjhdashds ahd jashd aj dahkd ah
+        </p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form
+        action="mailto:youremail@example.com"
+        method="post"
+        enctype="text/plain"
+      >
+        <label for="name">Your Name:</label><br />
+        <input type="text" id="name" name="name" /><br /><br />
+
+        <label for="email">Your Email:</label><br />
+        <input type="email" id="email" name="email" /><br /><br />
+
+        <label for="message">Message:</label><br />
+        <textarea id="message" name="message" rows="4" cols="50"></textarea
+        ><br /><br />
+
+        <input class="send-button" type="submit" value="Send" />
+      </form>
+      <p>You can also connect with me on Instagram @jaihyune.</p>
+    </section>
+
+    <footer>
+      <p>@ 2023 James Lee</p>
+    </footer>
+  </body>
+</html>
